@@ -36,7 +36,7 @@ int telefone_valido(char telefone[]) {
 }
 
 int idade_valida(int idade) {
-    return idade >= 0 && idade <= 999;
+    return idade >= 0 && idade <= 100;
 }
 
 Pessoa cadastrar_pessoa(int proximo_id) {
